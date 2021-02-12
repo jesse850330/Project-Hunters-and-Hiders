@@ -4,8 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: [{enabled: 1, path: Assets/Scenes/Project Hunters and Hiders.unity, guid: 6c16ba70e276412488662328462d4092},
-    {enabled: 1, path: Assets/UI/GameMenu.unity, guid: 2f3d8dba63033224aa76eff16dc956b0},
-    {enabled: 1, path: Assets/UI/GameHost.unity, guid: 3261b57bdab96994cbeee5831424f915},
-    {enabled: 1, path: Assets/UI/GameJoin.unity, guid: 3c08df9153677c44098e274bfd66da99}]
+  m_Scenes:
+  - enabled: 1
+    path: Assets/UI/GameMenu.unity
+    guid: 2f3d8dba63033224aa76eff16dc956b0
+  - enabled: 1
+    path: Assets/UI/GameHost.unity
+    guid: 3261b57bdab96994cbeee5831424f915
+  - enabled: 1
+    path: Assets/UI/GameJoin.unity
+    guid: 3c08df9153677c44098e274bfd66da99
+  - enabled: 1
+    path: Assets/Scenes/Project Hunters and Hiders.unity
+    guid: 6c16ba70e276412488662328462d4092
   m_configObjects: {}
