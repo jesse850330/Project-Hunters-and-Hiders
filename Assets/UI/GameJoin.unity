@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 15355637}
   - component: {fileID: 15355636}
   m_Layer: 5
-  m_Name: InputField (1)
+  m_Name: Name InputField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -156,7 +156,7 @@ RectTransform:
   - {fileID: 1043298633}
   - {fileID: 1963500821}
   m_Father: {fileID: 955801269}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -277,7 +277,7 @@ GameObject:
   - component: {fileID: 48292454}
   - component: {fileID: 48292453}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: IP InputField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -297,7 +297,7 @@ RectTransform:
   - {fileID: 1875295233}
   - {fileID: 168202563}
   m_Father: {fileID: 955801269}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -528,6 +528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   back: {fileID: 1087124673}
+  startJoin: {fileID: 1959800771}
 --- !u!1 &893466388
 GameObject:
   m_ObjectHideFlags: 0
@@ -700,9 +701,9 @@ RectTransform:
   - {fileID: 1563635911}
   - {fileID: 893466389}
   - {fileID: 1453322570}
+  - {fileID: 15355635}
   - {fileID: 48292452}
   - {fileID: 1959800770}
-  - {fileID: 15355635}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -781,7 +782,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter Your Name
+  m_Text: Player Name
 --- !u!222 &1043298635
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1026,7 +1027,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 74.99998, y: 49.99997}
+  m_AnchoredPosition: {x: 75, y: 50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &1485178525
@@ -1386,7 +1387,7 @@ RectTransform:
   m_Children:
   - {fileID: 2016072529}
   m_Father: {fileID: 955801269}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

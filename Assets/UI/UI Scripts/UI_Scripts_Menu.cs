@@ -50,7 +50,6 @@ public class UI_Scripts_Menu : MonoBehaviour
         Menu.SetActive(true);
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         play.onClick.AddListener(() =>
@@ -81,11 +80,5 @@ public class UI_Scripts_Menu : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
         });
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }
