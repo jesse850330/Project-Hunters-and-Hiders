@@ -3331,13 +3331,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1142373844}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 291c3e6f34435f441ad5d3929b47c974, type: 3}
+  m_Script: {fileID: 11500000, guid: 23fb505fe9151dd4997d2b65021efe4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: 1a4d15926d264c946841c457f517c6e0, type: 2}
-  MasterVolumeSlider: {fileID: 1042329029}
-  BackgroundSlider: {fileID: 1698585372}
-  SoundEffectSlider: {fileID: 1196511605}
 --- !u!1 &1171945028
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,18 +7,17 @@ using UnityEngine.SceneManagement;
 public class UI_Scripts_Join : MonoBehaviour
 {
     public Button back;
-    // Start is called before the first frame update
+    public Button startJoin;
+
     void Start()
     {
         back.onClick.AddListener(() =>
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
         });
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        startJoin.onClick.AddListener(() =>
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        });
     }
 }
