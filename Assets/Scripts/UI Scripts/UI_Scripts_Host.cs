@@ -10,7 +10,6 @@ public class UI_Scripts_Host : MonoBehaviour
     public Toggle Map2;
     public Toggle RandomMaps;
     private int maps;
-    public Button back;
     public Button next;
     public Button backHost;
     public Button startHost;
@@ -20,10 +19,6 @@ public class UI_Scripts_Host : MonoBehaviour
     void Start()
     {
         maps = 0;
-        back.onClick.AddListener(() =>
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-        });
         next.onClick.AddListener(() =>
         {
             HostNext();
@@ -34,7 +29,7 @@ public class UI_Scripts_Host : MonoBehaviour
         });
         startHost.onClick.AddListener(() =>
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+            
         });
     }
 
