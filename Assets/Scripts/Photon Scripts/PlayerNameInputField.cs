@@ -4,8 +4,7 @@ using Photon.Pun;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace HunterAndHider
-{
+
     [RequireComponent(typeof(InputField))]
     public class PlayerNameInputField : MonoBehaviour
     {
@@ -37,4 +36,4 @@ namespace HunterAndHider
             PlayerPrefs.SetString(playerNamePrefKey, value);
         }
     }
-}
+

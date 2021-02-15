@@ -45,8 +45,6 @@ public class UI_Scripts_Menu : MonoBehaviour
         Options.SetActive(false);
         Rule.SetActive(false);
         BackButton.SetActive(false);
-        Host.SetActive(false);
-        Join.SetActive(false);
         Menu.SetActive(true);
     }
 
