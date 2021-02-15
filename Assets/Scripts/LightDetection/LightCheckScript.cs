@@ -45,6 +45,7 @@ public class LightCheckScript : MonoBehaviour
         Light = Mathf.RoundToInt(LightLevel);
         LightLevelDet.text = Light.ToString();
 
+
         if (Light > 0)
         {
             HP.Health -= 0.1f;
