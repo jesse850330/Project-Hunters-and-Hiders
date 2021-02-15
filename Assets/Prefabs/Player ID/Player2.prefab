@@ -159,12 +159,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1413217744234287737}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2e915ac2dc19d40adb309e8ffafd6c, type: 3}
+  m_Script: {fileID: 11500000, guid: 31660625648cb644b8d8035e69600fad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 50
   Playerview: {fileID: 0}
-  LightDetection: {fileID: 1413217744805089168}
+  LightDetection: {fileID: 0}
 --- !u!54 &1413217744234287740
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -328,7 +328,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1413217744805089173
 Transform:
   m_ObjectHideFlags: 0
@@ -423,7 +423,7 @@ MonoBehaviour:
   sourceTexture: {fileID: 8400000, guid: 7e10dc4eb03674146982a8c9cde62641, type: 2}
   Light: 0
   LightLevelDet: {fileID: 0}
-  HP: {fileID: 0}
+  HP: {fileID: 1413217744234287742}
 --- !u!1 &1413217745633065238
 GameObject:
   m_ObjectHideFlags: 0

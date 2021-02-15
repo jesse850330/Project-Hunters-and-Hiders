@@ -9,7 +9,7 @@ public class LightCheckScript : MonoBehaviour
     
     float LightLevel;
     public int Light;
-    public Text LightLevelDet;
+    
     public Health_Cs HP;
     // Update is called once per frame
     void Update()
@@ -43,7 +43,7 @@ public class LightCheckScript : MonoBehaviour
         
         LightLevel = LightLevel / colors.Length;
         Light = Mathf.RoundToInt(LightLevel);
-        LightLevelDet.text = Light.ToString();
+        
 
 
         if (Light > 0)
