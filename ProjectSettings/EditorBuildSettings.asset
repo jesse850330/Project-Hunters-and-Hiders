@@ -4,6 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Scenes:
   - enabled: 1
     path: Assets/UI/GameMenu.unity
@@ -20,4 +21,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Project Hunters and Hiders.unity
     guid: 6c16ba70e276412488662328462d4092
+=======
+  m_Scenes: [{enabled: 1, path: Assets/Scenes/Project Hunters and Hiders.unity, guid: 6c16ba70e276412488662328462d4092},
+    {enabled: 1, path: Assets/Scenes/TutorialLobby.unity, guid: 48099b1e58d996f4098c1f2dd37fab50}]
+>>>>>>> Stashed changes
   m_configObjects: {}
