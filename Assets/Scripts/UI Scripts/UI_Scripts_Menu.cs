@@ -16,8 +16,6 @@ public class UI_Scripts_Menu : MonoBehaviour
     public Button help;
     public Button exit;
     public Button back;
-    public Button host;
-    public Button join;
 
     void GamePlay()
     {
@@ -41,7 +39,7 @@ public class UI_Scripts_Menu : MonoBehaviour
     {
         Application.Quit();
     }
-    void BackMenu()
+    public void BackMenu()
     {
         Server.SetActive(false);
         Options.SetActive(false);
@@ -71,14 +69,6 @@ public class UI_Scripts_Menu : MonoBehaviour
         back.onClick.AddListener(() =>
         {
             BackMenu();
-        });
-        host.onClick.AddListener(() =>
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        });
-        join.onClick.AddListener(() =>
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
         });
     }
 }
