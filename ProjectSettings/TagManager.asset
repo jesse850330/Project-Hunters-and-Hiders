@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Hider
+<<<<<<< Updated upstream
+=======
+  - Flashlight
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
@@ -15,7 +19,11 @@ TagManager:
   - 
   - 
   - Player
+<<<<<<< Updated upstream
   - 
+=======
+  - HidersView
+>>>>>>> Stashed changes
   - 
   - 
   - 

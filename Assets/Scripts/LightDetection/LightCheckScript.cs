@@ -10,6 +10,10 @@ public class LightCheckScript : MonoBehaviour
     float LightLevel;
     public int Light;
     public Text LightLevelDet;
+<<<<<<< Updated upstream
+=======
+    public Health_Cs HP;
+>>>>>>> Stashed changes
     // Update is called once per frame
     void Update()
     {
@@ -43,5 +47,13 @@ public class LightCheckScript : MonoBehaviour
         LightLevel = LightLevel / colors.Length;
         Light = Mathf.RoundToInt(LightLevel);
         LightLevelDet.text = Light.ToString();
+<<<<<<< Updated upstream
+=======
+
+        if (Light > 0)
+        {
+            HP.Health -= 0.1f;
+        }
+>>>>>>> Stashed changes
     }
 }
