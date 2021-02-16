@@ -59,6 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< refs/remotes/origin/main
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,6 +73,9 @@ MeshRenderer:
 =======
   - {fileID: 0}
 >>>>>>> parent of 8ebc901 (Prison Test)
+=======
+  - {fileID: 0}
+>>>>>>> Revert "prison cells"
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
