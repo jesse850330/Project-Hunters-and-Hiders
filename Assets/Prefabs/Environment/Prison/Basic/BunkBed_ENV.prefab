@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 6664375048928009186}
   - component: {fileID: 5326484004997410402}
   - component: {fileID: 8287124858733577775}
-  - component: {fileID: 4474817134059899878}
-  - component: {fileID: 1101985292531292022}
   m_Layer: 0
   m_Name: BunkBed_ENV
   m_TagString: Untagged
@@ -61,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 16f44aab0c59af841b223194cadfc87f, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,32 +81,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4474817134059899878
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5014663701583320377}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.825, y: 0.43186074, z: 0.42499998}
-  m_Center: {x: 0, y: 0.2174705, z: 0}
---- !u!65 &1101985292531292022
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5014663701583320377}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.026403755, y: 0.5448423, z: 0.42499998}
-  m_Center: {x: -0.39929807, y: 0.27396128, z: 0}
 --- !u!1 &8758420078201267868
 GameObject:
   m_ObjectHideFlags: 0
