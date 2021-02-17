@@ -42,6 +42,8 @@ GameObject:
   - component: {fileID: 1032318162289511204}
   - component: {fileID: 8509165015897837385}
   - component: {fileID: 665203850791421704}
+  - component: {fileID: 7067799264432044415}
+  - component: {fileID: 5185092770162700564}
   m_Layer: 0
   m_Name: Bench_ENV
   m_TagString: Untagged
@@ -90,7 +92,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 16f44aab0c59af841b223194cadfc87f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -112,3 +114,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7067799264432044415
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7433159603661129707}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.31259677, y: 0.31201133, z: 0.79999995}
+  m_Center: {x: -0.0013567656, y: 0.15851735, z: 0}
+--- !u!65 &5185092770162700564
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7433159603661129707}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5603262, y: 0.19344613, z: 0.79999995}
+  m_Center: {x: -0.00035107136, y: 0.099234745, z: 0}
