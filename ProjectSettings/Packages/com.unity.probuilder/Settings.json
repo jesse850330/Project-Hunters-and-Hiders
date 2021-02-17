@@ -2,10 +2,6 @@
     "m_Name": "Settings",
     "m_Path": "ProjectSettings/Packages/com.unity.probuilder/Settings.json",
     "m_Dictionary": {
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
         "m_DictionaryValues": [
             {
                 "type": "UnityEngine.ProBuilder.LogLevel, Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -25,16 +21,11 @@
             {
                 "type": "UnityEngine.ProBuilder.SemVer, Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "about.identifier",
-<<<<<<< Updated upstream
                 "value": "{\"m_Value\":{\"m_Major\":4,\"m_Minor\":2,\"m_Patch\":3,\"m_Build\":-1,\"m_Type\":\"\",\"m_Metadata\":\"\",\"m_Date\":\"\"}}"
-=======
-                "value": "{\"m_Value\":{\"m_Major\":4,\"m_Minor\":5,\"m_Patch\":0,\"m_Build\":-1,\"m_Type\":\"\",\"m_Metadata\":\"\",\"m_Date\":\"\"}}"
->>>>>>> Stashed changes
             },
             {
                 "type": "UnityEngine.ProBuilder.SemVer, Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "preferences.version",
-<<<<<<< Updated upstream
                 "value": "{\"m_Value\":{\"m_Major\":4,\"m_Minor\":2,\"m_Patch\":3,\"m_Build\":-1,\"m_Type\":\"\",\"m_Metadata\":\"\",\"m_Date\":\"\"}}"
             },
             {
@@ -115,15 +106,7 @@
             {
                 "type": "UnityEngine.ProBuilder.SelectMode, Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "editor.selectMode",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                "value": "{\"m_Value\":8}"
-=======
-                "value": "{\"m_Value\":4}"
->>>>>>> Stashed changes
-=======
                 "value": "{\"m_Value\":1}"
->>>>>>> Stashed changes
             },
             {
                 "type": "UnityEngine.ProBuilder.PivotLocation, Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -176,13 +159,5 @@
                 "value": "{\"m_Value\":9}"
             }
         ]
-=======
-        "m_DictionaryValues": []
->>>>>>> main
-=======
-                "value": "{\"m_Value\":{\"m_Major\":4,\"m_Minor\":5,\"m_Patch\":0,\"m_Build\":-1,\"m_Type\":\"\",\"m_Metadata\":\"\",\"m_Date\":\"\"}}"
-            }
-        ]
->>>>>>> Stashed changes
     }
 }

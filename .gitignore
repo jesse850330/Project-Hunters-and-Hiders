@@ -58,7 +58,3 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 *.meta
-ProjectSettings/Packages/com.unity.probuilder/Settings.json
-
-*.json
-Assets/TextMesh Pro/Sprites/EmojiOne.json.meta

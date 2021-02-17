@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 8005166140199947055}
   - component: {fileID: 5263598322617101600}
   - component: {fileID: 5501473488591049066}
+  - component: {fileID: 3667902213544567411}
   m_Layer: 0
   m_Name: Sink_ENV
   m_TagString: Untagged
@@ -90,7 +91,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 16f44aab0c59af841b223194cadfc87f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -112,3 +113,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3667902213544567411
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7663771738468039467}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.26369232, y: 0.22331554, z: 0.36181724}
+  m_Center: {x: -0.023412168, y: -0.15250373, z: 0.0009801388}

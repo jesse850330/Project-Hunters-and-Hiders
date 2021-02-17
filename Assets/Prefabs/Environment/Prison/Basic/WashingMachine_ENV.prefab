@@ -39,7 +39,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4580666000737467754}
-  m_Mesh: {fileID: -8375095742728401873, guid: dfe58ce7a3a01194d931ce9befa77bae, type: 3}
+  m_Mesh: {fileID: -8375095742728401873, guid: 3bd3ad506dee6f74781e53a8d162584f, type: 3}
 --- !u!23 &618930278859865317
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -59,23 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-<<<<<<< refs/remotes/origin/main
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - {fileID: 2100000, guid: ffa02eaeb5a1d3c47b07d02edc4d228e, type: 2}
-=======
   - {fileID: 2100000, guid: 16f44aab0c59af841b223194cadfc87f, type: 2}
->>>>>>> main
-=======
-  - {fileID: 0}
->>>>>>> parent of 8ebc901... Prison Test
-=======
-  - {fileID: 0}
->>>>>>> parent of 8ebc901 (Prison Test)
-=======
-  - {fileID: 0}
->>>>>>> Revert "prison cells"
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
