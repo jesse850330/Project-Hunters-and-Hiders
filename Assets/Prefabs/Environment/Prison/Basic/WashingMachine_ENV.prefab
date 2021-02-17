@@ -61,6 +61,7 @@ MeshRenderer:
   m_Materials:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 2100000, guid: ffa02eaeb5a1d3c47b07d02edc4d228e, type: 2}
 =======
   - {fileID: 2100000, guid: 16f44aab0c59af841b223194cadfc87f, type: 2}
@@ -68,6 +69,9 @@ MeshRenderer:
 =======
   - {fileID: 0}
 >>>>>>> parent of 8ebc901... Prison Test
+=======
+  - {fileID: 0}
+>>>>>>> parent of 8ebc901 (Prison Test)
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
