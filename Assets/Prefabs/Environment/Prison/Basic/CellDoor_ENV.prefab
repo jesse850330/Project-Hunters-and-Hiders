@@ -42,7 +42,6 @@ GameObject:
   - component: {fileID: 8937910568207291263}
   - component: {fileID: 581894046425282808}
   - component: {fileID: 7826955789403236181}
-  - component: {fileID: 5949442992914999289}
   m_Layer: 0
   m_Name: CellDoor_ENV
   m_TagString: Untagged
@@ -91,7 +90,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 16f44aab0c59af841b223194cadfc87f, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -113,16 +112,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5949442992914999289
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1424242566146453137}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.056204986, y: 1.7656181, z: 0.8110111}
-  m_Center: {x: 0, y: 0, z: -0.000000044703484}
